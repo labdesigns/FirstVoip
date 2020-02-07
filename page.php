@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<!-- lalala -->
 <?php if (has_post_thumbnail()) {?>
 <section  id="page-hero" class="hero-wrapper">
     <div class="hero-img">
