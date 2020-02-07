@@ -1,0 +1,215 @@
+@media only screen and (max-width: 599px){
+    .nav-header {
+        & .topbar-wrapper {
+            height: 100px;
+            & .topbar80{
+                flex-wrap: wrap;
+                & .topbar-slogan{
+                    margin: auto;
+                }
+                & .topbar-social{
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                }
+                & .topbar-contact{
+                    margin: auto;
+                    justify-content: center;
+                }
+            }
+        }
+        & .main-navigation{
+            & ul{
+                margin: 30% 5px;
+            }
+        }
+    }
+    .hero-wrapper .hero-content {
+        width: 90%;
+    }
+
+    #intro{
+        & .content-center{
+            & .intro{
+                    width: 200px;
+                    padding: 15px 15px 15px 25px;
+                    &:nth-last-child(1) {
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+            }
+        }
+    }
+
+    #fp-main{
+        & #post-2{
+            & .wp-block-columns{
+                flex-wrap: wrap;
+                & .wp-block-column{
+                    flex-basis: 40%;   
+                    margin: 10px;
+                    & h2 {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #voicemail{
+        & .content-center div{
+            width: 100%;
+        }
+    }
+
+    #news{
+        & .content-center{
+            flex-wrap: wrap;
+            &:nth-child(2){
+                margin-top: -190px;
+            }
+            & article{
+                width: 400px;
+                margin: 25px;
+                &:nth-child(2){
+                    transform: none;
+                }
+                & .news-content{
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    #partners .partner-logo_wrapper .partner {
+        width: 50%;
+    }
+
+    #aside-main{
+        flex-wrap: wrap;
+    }
+
+    .footer80{
+        & .footer-row{
+            flex-wrap: wrap;
+            &:nth-child(1){
+                & .footer-post1{
+                    width: 100%;
+                }
+                & .menu-workflows-container{
+                    width: 40%;
+                    margin: 20px 0px 20px 0px;
+                }
+                & .menu-kosten-klant-worden-container{
+                    width: 40%;
+                    margin: 20px 0px 20px 0px;
+                }
+
+                & .footer-post2{
+                    width:100%;
+                }
+            }
+            &:nth-child(2) {
+                flex-wrap: wrap-reverse;
+                & div{
+                margin: 10px 0px 10px 0px;
+                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .nav-header {
+        & .topbar-wrapper {
+            height: 100px;
+            & .topbar80{
+                flex-wrap: wrap;
+                & .topbar-slogan{
+                    font-size: 13px;
+                }
+                & .topbar-social{
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                }
+                & .topbar-contact{
+                    margin: auto;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    font-size: 13px;
+                    & i {
+                        padding: 0px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-wrapper .hero-content a {
+        padding: 10px;
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    #intro{
+        & .content-center{
+            width: 75%;
+            & .intro{
+                    width: 100%;
+            }
+        }
+    }
+
+    .review-wrapper .review-slider {
+        width: 300px;
+        margin-left: -150px;
+    }
+
+    #fp-main{
+        & #post-2{
+            & .wp-block-columns{
+                flex-wrap: wrap;
+                & .wp-block-column{
+                    flex-basis: 100%;   
+                    margin: 10px;
+                    & h2 {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+            & hr{
+                width: 100%;
+            }
+        }
+    }
+
+    #news{
+        & .content-center{
+            flex-wrap: wrap;
+            &:nth-child(1){
+                height: 500px;
+            }
+            & article{
+                width: 400px;
+                margin: 25px 5px;
+                & .news-content{
+                    height: 60%;
+                }
+            }
+        }
+    }
+    #partners .partner-logo_wrapper .partner {
+        width: 100%;
+    }
+
+    .footer80{
+        & .footer-row{
+            &:nth-child(1){
+                & .menu-kosten-klant-worden-container{
+                    width: 60%;
+                }
+            }
+        }
+    }
+}

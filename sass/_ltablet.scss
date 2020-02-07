@@ -1,0 +1,197 @@
+@media only screen and (max-width: 1000px){
+    .nav-header .topbar-wrapper .topbar80 {
+        flex-wrap: nowrap;
+        & .topbar-social {
+            margin-left: 20px;
+            margin-right: auto;
+            width: 250px;
+        }
+
+        & .topbar-contact {
+            padding-left: 0px;
+        }
+    }
+
+    .hero-wrapper .hero-content {
+        width: 60%;
+        min-width: 300px;
+        padding-top: 100px;
+    }
+
+    #intro{
+        & .content-center{
+            flex-wrap: nowrap;
+        }
+
+        & .intro {
+        width: 300px;
+        min-width: 50px;
+        }
+
+        & h4{
+            font-size: 1.15rem;
+        }
+    }
+
+    #fp-main{
+        & h2{
+            font-size: 1.3rem;
+        }
+
+        & .wp-block-columns {
+            flex-wrap: nowrap;
+        }
+    }
+
+    #voicemail {
+        & .content-center{
+            & div{
+                width: 50%;
+            }
+            & .vm-content{
+                padding-right: 20px;
+            }
+        }
+    }
+
+    #news{
+        & .content-center{
+            flex-wrap: nowrap;
+            width: 99%;
+            overflow-x: hidden;
+            & article{
+                min-width: 0px;
+                & .news-content {
+                    height: 100%;
+                    padding: 30px 35px;
+                }
+            }
+        }
+    }
+
+    #cat-main article {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #post-60{
+        & .wp-block-columns {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .footer--wrapper{
+        & h3{
+            font-size: .9rem;
+        }
+
+        & ul{
+            padding-left: 0px; 
+        }
+        & .menu-workflows-container{
+            margin-left: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .nav-header{
+        & .nav-burger{
+            display: block;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            padding-top: 10px;
+
+            & hr{
+                color: $orange;
+                border-top: 3px solid $orange;
+                margin: 0px 0px 10px 0px;
+            }
+        }
+        & .main-navigation {
+            display: none;
+            position: fixed;
+            z-index: 999999;
+            height: 100vh;
+            width: 100vw;
+            top: 0px;
+            background-color: rgba(3, 10, 32, 0.9);
+            & ul{
+                display: block;
+                padding-left: 0px;
+                margin: 30% 20%;
+                text-align: center;
+            
+                & li{
+
+                    &:nth-last-child(1) a {
+                        background-color: $orange;
+                        border-radius: 10px;
+                        color: #ffffff;
+                        padding: 10px;
+                    }
+                }
+            }
+            & a {
+                color: #ffffff;
+                line-height: 4rem;
+                font-size: 25px;
+            }
+        }
+        & .nav-wrapper .nav80{
+            justify-content: space-around;
+            & .site-branding {
+                margin: 25px 0px;
+            }
+        }
+        & #closeBurger {
+            z-index: 6666;
+            color: #ffffff;
+            font-size: 42px;
+            margin-top: -100px;
+            margin-left: 80%;
+            cursor: pointer;
+            transition: transform 200ms ease-in-out ;
+            &:hover{
+                color: $orange;
+                transform: scale(1.13);
+            }
+            &:focus{
+                color: $orange;
+                transform: scale(1.13);
+            }
+        }
+    }
+
+    .hero-wrapper .hero-content {
+        width: 80%;
+        min-width: 300px;
+        padding-top: 100px;
+    }
+
+    #intro{
+        & .content-center{
+            flex-wrap: wrap;
+            & .intro{
+                width: 270px;
+                &:nth-last-child(1){
+                    width: 100%;
+                    margin-top: -50px;
+                }
+            }
+        }
+    }
+
+    .testvoip-wrapper .testvoip-img, 
+    .testvoip-wrapper .testvoip-content {
+        width: 100%;
+    }
+
+    .review-wrapper .review-slider {
+        width: 500px;
+        margin-left: -250px;
+    }
+
+    
+}
