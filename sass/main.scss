@@ -1,0 +1,61 @@
+$orange: #f6952f;
+$light-orange: #f3ca9f;
+$mainFontClr: #051441;
+$ligt-blue: #c6cff1;
+$lightgrey: #fafbfc;
+$footerBleu: #030a20;
+$w80: 75%;
+$maxw: 1500px;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#body {
+  font-family: "Poppins", sans-serif;
+  color: $mainFontClr;
+}
+
+::selection {
+  background: $orange;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:link,
+a:active {
+  text-decoration: none;
+  color: $orange;
+}
+
+p {
+  margin: 25px 0px;
+  line-height: 1.618rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  color: $mainFontClr;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+@import 'desktop';
+@import 'laptop';
+@import 'ltablet';
+@import 'mobile';
+
